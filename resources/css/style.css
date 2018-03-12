@@ -2,29 +2,30 @@ html, body {
   font-family: Helvetica;
   font-size: 18px;
   background-color: white;
+  color: white;
 }
 
-.header {
-  color: white;
+header {
   background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 960px;
+}
+
+.header-content {
+  margin-bottom: 0.66rem;
+  margin-top: 0.66rem;
   display: flex;
   align-items: center;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-
-  width: 960px;
-}
-
-.container span {
-  padding: 0.66rem 0 0.66rem 1rem;
-}
-
-.container img {
+.header-content img {
   height: 1.5rem;
-  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
 }
 
 .banner {
@@ -33,8 +34,95 @@ html, body {
   background-position: center;
   background-size: cover;
   height: 25rem;
+  display: flex;
+  justify-content: center;
+}
+
+.headline {
+  padding-top: 9rem;
+}
+
+.headline-box {
+  width: 20rem;
+  background-color: black;
+  padding: 2rem 3rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.headline-box h1 {
+  font-size: 2rem;
+}
+
+.headline-box h4 {
+  font-size: 1rem;
+  padding-bottom: 0.25rem;
 }
 
 .navigation-menu {
   background-color: firebrick;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-menu nav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.box {
+  color: black;
+  border: 4px solid black;
+  width: 30%;
+}
+
+.box-content {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.box-content img {
+  height: 9em;
+  display: flex;
+  justify-content: center;
+}
+
+.box-text {
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: black;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+
+}
+
+.footer-content {
+  display: flex;
+
 }
