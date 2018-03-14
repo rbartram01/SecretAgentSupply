@@ -101,6 +101,7 @@ header {
 
 .box-content img {
   height: 9em;
+  width: auto;
   display: flex;
   justify-content: center;
 }
@@ -114,15 +115,34 @@ header {
   justify-content: center;
 }
 
+.info {
+  width: 35%;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.info-content {
+  background-color: black;
+  padding: 1rem 0 1rem 2rem;
+}
+
+.text {
+  color: black;
+}
+
 footer {
   background-color: black;
-  height: 5rem;
   display: flex;
   justify-content: center;
-
+  align-items: center;
+  height: 5rem;
 }
 
 .footer-content {
   display: flex;
-
+  justify-content: space-around;
 }
